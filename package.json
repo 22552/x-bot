@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "license": "MIT",
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
@@ -10,13 +11,13 @@
     "register": "node scripts/register.mjs"
   },
   "dependencies": {
-    "hono": "^4.0.0",
-    "qrcode": "^1.5.4"
+    "hono": "4.12.32",
+    "qrcode": "1.5.4"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "latest",
-    "typescript": "latest",
-    "wrangler": "latest"
+    "@cloudflare/workers-types": "5.20260729.1",
+    "typescript": "7.0.2",
+    "wrangler": "4.115.0"
   },
   "cloudflare": {
     "bindings": {
